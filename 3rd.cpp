@@ -1,13 +1,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 struct Student {
     int rollno;
     string name;
     int date_of_birth;
 };
-
 int main() {
     int n = 0;
     cout << "Enter the number of students : ";
