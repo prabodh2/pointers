@@ -5,23 +5,19 @@ using namespace std;
 struct SubMarks {
     string sub;
     int marks;
-
     void getSubMarks(int marks, string sub) {
         this->sub = sub;
         this->marks = marks;
     }
-
     void displaySubMarks() {
         cout << "Subject: " << sub << endl;
         cout << "Marks: " << marks << endl;
     }
-
     void updateMarks(int *marks) {
         cout << "Enter the updated "<< this->sub <<" marks: ";
         cin >> *marks;
     }
 };
-
 struct StudentMarks {
     struct SubMarks regularMarks[5];
 
@@ -35,7 +31,6 @@ struct StudentMarks {
             regularMarks[i].getSubMarks(0, sub);
         }
     }
-
     void getFailedSubjects() {
         int count = 0;
         for (int i = 0; i < 5; i++) {
