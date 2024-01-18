@@ -4,7 +4,6 @@ using namespace std;
 struct SubMarks {
     string sub;
     int marks;
-
     void getSubMarks(int marks, string sub) {
         this->sub = sub;
         this->marks = marks;
@@ -18,7 +17,6 @@ struct SubMarks {
         cin >> *marks;
     }
 };
-
 struct StudentMarks {
     struct SubMarks regularMarks[5];
 
@@ -57,13 +55,9 @@ int main() {
 
     cout << "Enter the student details:" << endl;
     student.getStudentMarks();
-
     student.getFailedSubjects();
-
     student.updateFailedSubjects();
-
     cout << "Updated Marks:" << endl;
     student.getFailedSubjects();
-
     return 0;
 }
