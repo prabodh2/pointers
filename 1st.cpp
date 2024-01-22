@@ -120,7 +120,7 @@ int main() {
                 }
                 break;
             case 0:
-                toggle = 0;
+                toggle= 0;
                 cout << "exiting..." << endl;
                 break;
             default:
