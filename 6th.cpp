@@ -1,6 +1,7 @@
 //wap to calculate passing percent and failing percent age of a given subject ?
 // # include <iostream>
 // using namespace std;
+
 // int main() {
 //     int totalStudents, passedStudents, failedStudents;
 //     cout << "Enter the total number of students: ";
@@ -18,8 +19,10 @@
 //     cout << "Failing Percentage: " << failingPercentage << "%" << endl;
 //     return 0;
 // }
+
 // #include <iostream>
 // using namespace std;
+
 // void getPassedAndFailedStudents(int *arr, int size){
 //     float passedstudents=0;
 //     for (int i = 0; i < size; i++) {
@@ -27,6 +30,7 @@
 //             passedstudents++;
 //         }
 //     }
+
 //     int passedStudents = passedstudents/size * 100;
 //     int failedStudents = 100 - passedStudents;
 //     cout << "Passed students : " << passedStudents << endl;
@@ -37,16 +41,20 @@
 //     int n = 0;
 //     cout << "Enter the number of elements: ";
 //     cin >> n;
+
 //     int arr3[n];
 //     for (int i = 0; i < n; i++) {
 //         cin >> arr[i];
 //     }
 //     getPassedAndFailedStudents(arr, n);
+    
+
 //     return 0;
 // }
 
 #include <iostream>
 using namespace std;
+
 void getPassedAndFailedStudents(int *sub1, int *sub2, int *sub3, int size){
     int passedStudents=0;
     for (int i = 0; i < size; i++) {
