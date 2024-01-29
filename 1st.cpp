@@ -20,7 +20,6 @@ struct SubMarks {
 };
 struct StudentMarks {
     struct SubMarks regularMarks[5];
-
     void getStudentSubjects() {
         for (int i = 0; i<5; i++) {
             cout << "Enter the " << i+1 << "th subject detailes" << endl;
