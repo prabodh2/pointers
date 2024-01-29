@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 struct SubMarks {
     string sub;
     int marks;
@@ -19,7 +18,6 @@ struct SubMarks {
 };
 struct StudentMarks {
     struct SubMarks regularMarks[5];
-
     void getStudentMarks() {
         for (int i = 0; i < 5; i++) {
             cout << "Enter the " << i + 1 << "th subject details" << endl;
@@ -49,10 +47,8 @@ struct StudentMarks {
         }
     }
 };
-
 int main() {
     StudentMarks student;
-
     cout << "Enter the student details:" << endl;
     student.getStudentMarks();
     student.getFailedSubjects();
