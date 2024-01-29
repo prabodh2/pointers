@@ -84,13 +84,11 @@
 // }
 // int main() {
 //     implimentInsertAtBeginning();
-
 //     return 0;
 // }
 // #include <iostream>
 // #include <algorithm>
 // using namespace std;
-
 // void insertAtPosition(int* arr, int ele, int pos, int& n) {
 //     if (pos < 0 || pos > n) {
 //         cout << "Invalid position. Element not inserted." << endl;
@@ -147,7 +145,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 void deleteAtIndex(int* arr, int pos, int& n) {
     if (pos < 0 || pos >= n) {
         cout << "Invalid index. Element not deleted." << endl;
