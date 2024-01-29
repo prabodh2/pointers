@@ -36,7 +36,6 @@
 // }
 // int main() {
 //     InsertAtBeginning();
-
 //     return 0;
 // }
 // #include <iostream>
