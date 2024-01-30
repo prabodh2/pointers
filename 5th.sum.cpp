@@ -50,6 +50,5 @@ int main() {
         cin >> arr[i];
     }
     largestNumber(arr,n);
-
     return 0;
 }
