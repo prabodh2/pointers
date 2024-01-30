@@ -60,15 +60,13 @@
 
 //     return 0;
 // }
-
 // # include<iostream>
 // using namespace std;
 // int main(){
 //     int sub[5]={11,12,13,14,15};
 //     int sub1[5]={22,23,24,25,26};
 //     int sub2[5]={38,39,40,41,42};
-//     int *ptrarray[3]={sub,sub1,sub2};
-    
+//     int *ptrarray[3]={sub,sub1,sub2}; 
 //     for (int i=0;i<3;i++)
 //             for (int j = 0; j < 5; j++) {
 //                 cout << ptrarray[i][j] << " ";
