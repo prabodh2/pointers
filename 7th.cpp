@@ -145,6 +145,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
 void deleteAtIndex(int* arr, int pos, int& n) {
     if (pos < 0 || pos >= n) {
         cout << "Invalid index. Element not deleted." << endl;
