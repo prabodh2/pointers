@@ -105,7 +105,6 @@
 // }
 // #include <iostream>
 // using namespace std;
-
 // int main() {
 //     int rows = 3;
 //     int cols = 5;
@@ -124,7 +123,6 @@
 //         }
 //         cout << endl;
 //     }
-
 //     return 0;
 // }
 #include <iostream>
