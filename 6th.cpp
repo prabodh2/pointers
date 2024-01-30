@@ -19,7 +19,6 @@
 //     cout << "Failing Percentage: " << failingPercentage << "%" << endl;
 //     return 0;
 // }
-
 // #include <iostream>
 // using namespace std;
 
@@ -30,7 +29,6 @@
 //             passedstudents++;
 //         }
 //     }
-
 //     int passedStudents = passedstudents/size * 100;
 //     int failedStudents = 100 - passedStudents;
 //     cout << "Passed students : " << passedStudents << endl;
@@ -41,14 +39,11 @@
 //     int n = 0;
 //     cout << "Enter the number of elements: ";
 //     cin >> n;
-
 //     int arr3[n];
 //     for (int i = 0; i < n; i++) {
 //         cin >> arr[i];
 //     }
 //     getPassedAndFailedStudents(arr, n);
-    
-
 //     return 0;
 // }
 
