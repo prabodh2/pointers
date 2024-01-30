@@ -59,7 +59,6 @@ struct StudentMarks {
 };
 
 int main() {
-
     vector<struct StudentMarks> students;
     int toggle = 1;
     while (toggle)
@@ -106,7 +105,6 @@ int main() {
                     for (int i = 0; i < students.size(); i++) {
                         students[i].displayMarks();
                     }
-
                 }
                 else if (internalChoice == 2) {
                     if (students.size() == 0) {
