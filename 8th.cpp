@@ -193,7 +193,6 @@ int main() {
         }
     }
     getPassedAndFailedStudents(dsa, html, css, python,cpp, n);
-    
     int rows = 3;
     int cols = 5;
     int myArray[rows][cols];
@@ -211,6 +210,5 @@ int main() {
         }
         cout << endl;
     }
-
     return 0;
 }
