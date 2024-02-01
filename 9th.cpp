@@ -28,7 +28,6 @@
 //     display(head);
 // }
 
-
 // #include <iostream>
 // using namespace std;
 // struct Node {
@@ -43,7 +42,6 @@
 //     newNode->next = head;
 //     return newNode;
 // }//new node
-
 // void display(Node* head) {
 //     Node* current = head;//new nodes
 //     while (current != nullptr) {
@@ -55,7 +53,6 @@
 
 // int main() {
 //     Node* head = nullptr;// first node
-
 //     head=insert(head, 2);
 //     head=insert(head, 30);
 //     head=insert(head, 3);
