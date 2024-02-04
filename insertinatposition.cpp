@@ -1,5 +1,3 @@
-// inserting at position
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -57,3 +55,4 @@ int main() {
     implementInsertAtPosition();
     return 0;
 }
+
