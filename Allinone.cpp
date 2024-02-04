@@ -6,7 +6,6 @@ void insertAtEnd(int* arr, int ele, int& n) {
     arr[n] = ele;
     n++;
 }
-
 void insertAtBeginning(int* arr, int ele, int& n) {
     for (int i = n; i > 0; i--) {
         arr[i] = arr[i-1];
@@ -14,7 +13,6 @@ void insertAtBeginning(int* arr, int ele, int& n) {
     arr[0] = ele;
     n++;
 }
-
 void insertAtPosition(int* arr, int ele, int pos, int& n) {
     if (pos < 0 || pos > n) {
         cout << "Invalid position. Element not inserted." << endl;
@@ -26,7 +24,6 @@ void insertAtPosition(int* arr, int ele, int pos, int& n) {
     arr[pos] = ele;
     n++;
 }
-
 void displayArr(int *arr, int n) {
     cout << "Array : [ ";
     for (int i = 0; i < n; i++) {
