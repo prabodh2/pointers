@@ -1,3 +1,4 @@
+//inserting at ending 
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -6,7 +7,6 @@ void insertAtEnd(int* arr, int ele, int& n) {
     arr[n] = ele;
     n++;
 }
-
 void displayArr(int *arr, int n) {
     cout << "Array : [ ";
     for (int i = 0; i < n; i++) {
@@ -17,7 +17,6 @@ void displayArr(int *arr, int n) {
         }
     }
 }
-
 int getNumberOfElements(int *arr) {
     int i = 0;
     while (arr[i] != -1){

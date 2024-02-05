@@ -52,7 +52,7 @@ Node* insert(Node* head, int value) {
 void display(Node* head) {
     Node* current = head;
     while (current != nullptr) {
-        cout << current->data ;
+        cout << current->data << " ";
         current = current->next;
     }
     cout << endl;

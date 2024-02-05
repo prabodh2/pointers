@@ -39,6 +39,7 @@ void implementSearchInArray() {
         cout << "Element found at index " << index << "." << endl;
     } else {
         cout << "Element not found in the array." << endl;
+        cout << "Enter another element : ";
     }
 }
 int main() {
