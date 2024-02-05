@@ -7,7 +7,6 @@
 //     string name;
 //     int date_of_birth;
 // };
-
 // int main() {
 //     int n = 0;
 //     cout << "Enter the number of students : ";
