@@ -39,6 +39,5 @@ void InsertAtBeginning() {
 }
 int main() {
     InsertAtBeginning();
-
     return 0;
 }
