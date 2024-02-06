@@ -6,7 +6,6 @@ struct Node {
 
     Node(int value) : data(value), next(nullptr) {} 
 };
-
 Node *insert(Node *head, int value) {
     Node *newNode = new Node(value); // new nodes
     newNode->next = head;
