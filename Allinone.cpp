@@ -34,7 +34,6 @@ void displayArr(int *arr, int n) {
         }
     }
 }
-
 int searchElement(int* arr, int ele, int n) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == ele) {
@@ -66,7 +65,6 @@ void implementArrayOperations() {
     insertAtBeginning(arr, newEle, numOfEleInArr);
     cout << "Array after inserting at the beginning: ";
     displayArr(arr, numOfEleInArr);
-
     int position = 0;
     cout << "Enter the element to insert: ";
     cin >> newEle;
@@ -75,7 +73,6 @@ void implementArrayOperations() {
     insertAtPosition(arr, newEle, position, numOfEleInArr);
     cout << "Array after inserting at the position: ";
     displayArr(arr, numOfEleInArr);
-
     int searchEle;
     cout << "Enter the element to search: ";
     cin >> searchEle;
