@@ -1,5 +1,4 @@
 //inserting at begining
-
 #include <iostream>
 using namespace std;
 
