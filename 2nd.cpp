@@ -51,15 +51,11 @@
 
 // int main() {
 //     StudentMarks student;
-
 //     cout << "Enter the student details:" << endl;
 //     student.getStudentMarks();
-
 //     student.getFailedSubjects();
-
 //     student.updateFailedSubjects();
 //     cout << "Updated Marks:" << endl;
 //     student.getFailedSubjects();
-
 //     return 0;
 // }
