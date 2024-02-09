@@ -43,29 +43,24 @@ int searchElement(int* arr, int ele, int n) {
     }
     return -1; 
 }
-
 void implementArrayOperations() {
     int numOfEleInArr;
     cout << "Enter the length of the array: ";
     cin >> numOfEleInArr;
     int arr[100];
     fill_n(arr, 100, -1);
-    
     cout << "Enter elements of the array: ";
     for (int i = 0; i < numOfEleInArr; i++) {
         cin >> arr[i];
     }
-
     cout << "Traversing the array: ";
     displayArr(arr, numOfEleInArr);
-
     int newEle = 0;
     cout << "Enter the element to append at the end: ";
     cin >> newEle;
     insertAtEnd(arr, newEle, numOfEleInArr);
     cout << "Array after inserting at the end: ";
     displayArr(arr, numOfEleInArr);
-
     cout << "Enter the element to insert at the beginning: ";
     cin >> newEle;
     insertAtBeginning(arr, newEle, numOfEleInArr);
