@@ -10,18 +10,15 @@
 //         this->sub = sub;
 //         this->marks = marks;
 //     }
-
 //     void displaySubMarks() {
 //         cout << "Subject: " << sub << endl;
 //         cout << "Marks: " << marks << endl;
 //     }
-
 //     void updateMarks(int *marks) {
 //         cout << "Enter the updated "<< this->sub <<" marks: ";
 //         cin >> *marks;
 //     }
 // };
-
 // struct StudentMarks {
 //     struct SubMarks regularMarks[5];
 
