@@ -253,7 +253,6 @@ void display(const Node* head) {
 int main() {
     // Create an empty linked list
     Node* myList = nullptr;
-
     // Insert elements into the linked list
     insert(myList, 1);
     insert(myList, 2);
