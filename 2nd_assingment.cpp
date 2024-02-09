@@ -6,7 +6,6 @@ struct studentMarks {
     string name;
     int rollNumber;
     studentMarks *next;
-
     studentMarks(float value[], int rollNum, string n) {
         for(int i=0;i<5;i++) {
             marks[i]=value[i];
@@ -15,7 +14,6 @@ struct studentMarks {
         name=n;
         next=nullptr;
     }
-
     float avgMarks() {
         float sum=0;
         for(int i=0;i<5;i++) {
@@ -24,13 +22,11 @@ struct studentMarks {
         return sum/5;
     }
 };
-
 studentMarks *insert(studentMarks *head, float values[], int rnum, string n) {
     studentMarks *newStudent = new studentMarks(values, rnum, n);
     newStudent->next = head;
     return newStudent;
 }
-
 void display(studentMarks *head) {
     studentMarks *current=head;
     cout<<"Student "<<current->name<<", roll num "<<current->rollNumber<<" has scored: "<<endl;
@@ -67,13 +63,10 @@ int main() {
 
     cout<<"Linked List:\n";
     display(head);
-
-
     while (head!=nullptr) {
         studentMarks *temp=head;
         head=head->next;
         delete temp;
     }//delete nodes (since work is done heap must be edited for future use.)
-
     return 0;
 }
