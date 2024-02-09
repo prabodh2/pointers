@@ -2,7 +2,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 void insertAtEnd(int* arr, int ele, int& n) {
     arr[n] = ele;
     n++;
@@ -24,7 +23,6 @@ int getNumberOfElements(int *arr) {
     }
     return i;
 }
-
 void implementInsertAtEnd() {
     int numOfEleInArr;
     cout << "Enter the length of the array: ";
@@ -48,4 +46,3 @@ int main() {
     implementInsertAtEnd();
     return 0;
 }
-
