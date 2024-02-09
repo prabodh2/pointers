@@ -11,7 +11,6 @@ Node *insert(Node *head, int value) {
     newNode->next = head;
     return newNode;
 } // new node
-
 void display(Node *head) {
     Node *current = head;
     while (current != nullptr) {
