@@ -78,7 +78,6 @@ int main() {
     head = insert(head, 0);
     head = insert(head, 3);
     head = insert(head, 8);
-
     cout << "Linked List: ";
     display(head);
     int nodeCount = countNodes(head);
