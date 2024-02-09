@@ -21,7 +21,6 @@
 // };
 // struct StudentMarks {
 //     struct SubMarks regularMarks[5];
-
 //     void getStudentSubjects() {
 //         for (int i = 0; i<5; i++) {
 //             cout << "Enter the " << i+1 << "th subject detailes" << endl;
@@ -32,7 +31,6 @@
 //             regularMarks[i].getSubMarks(0, sub);
 //         }
 //     }
-
 //     void getFailedSubjects() {
 //         int count = 0;
 //         for (int i = 0; i < 5; i++) {
@@ -45,13 +43,11 @@
 //             cout << "No failed subjects found" << endl;
 //         }
 //     }
-
 //     void displayMarks() {
 //         for (int i = 0; i < 5; i++) {
 //             regularMarks[i].displaySubMarks();
 //         }
 //     }
-
 //     void updateFailedSubjects() {
 //         for (int i = 0; i < 5; i++){
 //             if (regularMarks[i].marks < 35) {
@@ -60,7 +56,6 @@
 //         }
 //     }
 // };
-
 // int main() {
 
 //     vector<struct StudentMarks> students;
