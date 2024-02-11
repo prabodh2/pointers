@@ -1,3 +1,4 @@
+
 // // //     //Traverse 
 
 // // #include <iostream>
@@ -39,6 +40,7 @@
 // // }
 // // int main() {
 // //     InsertAtBeginning();
+
 // //     return 0;
 // // }
 
@@ -47,6 +49,7 @@
 // #include <iostream>
 // #include <algorithm>
 // using namespace std;
+
 // void insertAtBeginning(int* arr, int ele, int n) {
 //     for (int i = n-1; i >= 0; i--) {
 //         arr[i+1] = arr[i];
@@ -90,8 +93,10 @@
 // }
 // int main() {
 //     implimentInsertAtBeginning();
+
 //     return 0;
 // }
+
 // // //     //Insert at position
 
 // #include <iostream>

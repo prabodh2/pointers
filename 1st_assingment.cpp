@@ -5,7 +5,7 @@ struct studentMarks {
     int marks[5];  
     studentMarks *next;
     studentMarks(int value[]) {
-        for(int i=0;i<5;i++) { 
+        for(int i=0;i<5;i++) {
             marks[i]=value[i];
         }
         next=nullptr;

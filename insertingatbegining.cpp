@@ -1,4 +1,5 @@
 //inserting at begining
+
 #include <iostream>
 using namespace std;
 
@@ -38,5 +39,6 @@ void InsertAtBeginning() {
 }
 int main() {
     InsertAtBeginning();
+
     return 0;
 }
