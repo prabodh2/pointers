@@ -1,6 +1,7 @@
 // // wap in cpp to find largest and 2nd largest num from n nums using an array ?
 // #include <iostream>
 // using namespace std;
+
 // int main() {
 //     int n;
 //     cout << "Enter the number of elements: ";
