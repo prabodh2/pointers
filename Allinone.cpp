@@ -25,6 +25,7 @@ void insertAtPosition(int* arr, int ele, int pos, int& n) {
     arr[pos] = ele;
     n++;
 }
+
 void displayArr(int *arr, int n) {
     cout << "Array : [ ";
     for (int i = 0; i < n; i++) {
