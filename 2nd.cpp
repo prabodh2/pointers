@@ -18,10 +18,8 @@
 //         cin >> *marks;
 //     }
 // };
-
 // struct StudentMarks {
 //     struct SubMarks regularMarks[5];
-
 //     void getStudentMarks() {
 //         for (int i = 0; i < 5; i++) {
 //             cout << "Enter the " << i + 1 << "th subject details" << endl;
