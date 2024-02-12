@@ -22,7 +22,6 @@
 
 // #include <iostream>
 // using namespace std;
-
 // void getPassedAndFailedStudents(int *arr, int size){
 //     float passedstudents=0;
 //     for (int i = 0; i < size; i++) {
