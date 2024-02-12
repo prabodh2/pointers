@@ -6,7 +6,6 @@ struct studentMarks {
     string name;
     int rollNumber;
     studentMarks *next;
-
     studentMarks(float value[], int rollNum, string n) {
         for(int i=0;i<5;i++) {
             marks[i]=value[i];
@@ -15,7 +14,6 @@ struct studentMarks {
         name=n;
         next=nullptr;
     }
-
     float avgMarks() {
         float sum=0;
         for(int i=0;i<5;i++) {
