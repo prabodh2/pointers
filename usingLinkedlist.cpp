@@ -18,6 +18,7 @@
 //     }
 //     cout << endl;
 // };//in reverse order
+
 // int main() {
 //     Node* head = nullptr;// first node
 //     head=insert(head, 3);//last node
