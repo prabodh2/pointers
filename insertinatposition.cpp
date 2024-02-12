@@ -24,6 +24,7 @@ void displayArr(int *arr, int n) {
         }
     }
 }
+
 int getNumberOfElements(int *arr) {
     int i = 0;
     while (arr[i] != -1){
