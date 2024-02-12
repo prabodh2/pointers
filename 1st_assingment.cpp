@@ -35,7 +35,7 @@ void display(studentMarks *head) {
     }
 }
 int main() {
-    studentMarks *head=nullptr;
+    studentMarks *head=nullptr ;
     char choice='y';
     while(tolower(choice)!='n') {
         int values[5];
