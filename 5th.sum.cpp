@@ -28,7 +28,6 @@
 //     cout << "Second Largest Number: " << (secondLargest != min ? secondLargest : -1) << endl;
 //     return 0;
 // }
-
 #include <iostream>
 using namespace std;
 
