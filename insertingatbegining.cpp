@@ -20,6 +20,7 @@ void displayArr(int *array, int n) {
         }
     }
 }
+
 void InsertAtBeginning() {
     int numOfEleInArr; 
     cout << "Enter length of array: ";
