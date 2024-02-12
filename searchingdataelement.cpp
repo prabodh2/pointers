@@ -20,6 +20,7 @@ int searchElement(int* arr, int n, int target) {
     }
     return -1; 
 }
+
 void implementSearchInArray() {
     int numOfEleInArr;
     cout << "Enter the length of the array: ";
