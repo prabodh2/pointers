@@ -1,10 +1,10 @@
 // // //wap to create array and take user input and use the function and pass the array and find ou the smallest element and largest in the array and wap
 // // #include <iostream>
-// // using namespace std;
+ // using namespace std;
 
 // // void inputArray(int arr[], int size) {
-// //     cout << "Enter elements of the array:" << endl;
-// //     for (int i = 0; i < size; ++i) {
+//     cout << "Enter elements of the array:" << endl;
+//     for (int i = 0; i < size; ++i) {
 // //         cout << "Enter element " << i + 1 << ": ";
 // //         cin >> arr[i];
 // //     }
