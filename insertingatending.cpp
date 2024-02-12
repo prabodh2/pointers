@@ -23,6 +23,7 @@ int getNumberOfElements(int *arr) {
     }
     return i;
 }
+
 void implementInsertAtEnd() {
     int numOfEleInArr;
     cout << "Enter the length of the array: ";
