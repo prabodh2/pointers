@@ -4,7 +4,6 @@
 // struct SubMarks {
 //     string sub;
 //     int marks;
-
 //     void getSubMarks(int marks, string sub) {
 //         this->sub = sub;
 //         this->marks = marks;
