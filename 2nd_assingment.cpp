@@ -27,7 +27,6 @@ studentMarks *insert(studentMarks *head, float values[], int rnum, string n) {
     newStudent->next = head;
     return newStudent;
 }
-
 void display(studentMarks *head) {
     studentMarks *current=head;
     cout<<"Student "<<current->name<<", roll num "<<current->rollNumber<<" has scored: "<<endl;
@@ -40,7 +39,6 @@ void display(studentMarks *head) {
         current = current->next;
     }
 }
-
 int main() {
     studentMarks *head=nullptr;
 
