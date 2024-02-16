@@ -1,14 +1,13 @@
 // //wap to calculate passing percent and failing percentage of a given subject ?
-// // # include <iostream>
-// // using namespace std;
-
-// // int main() {
-// //     int totalStudents, passedStudents, failedStudents;
-// //     cout << "Enter the total number of students: ";
-// //     cin >> totalStudents;
-// //     cout << "Enter the number of students who passed: ";
-// //     cin >> passedStudents;
-// //     if (totalStudents < 0 || passedStudents < 0 || passedStudents > totalStudents) {
+ // # include <iostream>
+ // using namespace std;
+ // int main() {
+ //     int totalStudents, passedStudents, failedStudents;
+ //     cout << "Enter the total number of students: ";
+ //     cin >> totalStudents;
+ //     cout << "Enter the number of students who passed: ";
+ //     cin >> passedStudents;
+ //     if (totalStudents < 0 || passedStudents < 0 || passedStudents > totalStudents) {
  //         cout << "Invalid input. Please enter valid values." << endl;
  //         return 1;
  //     }
