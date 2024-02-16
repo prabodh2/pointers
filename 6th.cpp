@@ -9,16 +9,16 @@
 // //     cout << "Enter the number of students who passed: ";
 // //     cin >> passedStudents;
 // //     if (totalStudents < 0 || passedStudents < 0 || passedStudents > totalStudents) {
-// //         cout << "Invalid input. Please enter valid values." << endl;
-// //         return 1;
-// //     }
-// //     failedStudents = totalStudents - passedStudents;
-// //     double passingPercentage = (static_cast<double>(passedStudents) / totalStudents) * 100;
-// //     double failingPercentage = (static_cast<double>(failedStudents) / totalStudents) * 100;
-// //     cout << "Passing Percentage: " << passingPercentage << "%" << endl;
-// //     cout << "Failing Percentage: " << failingPercentage << "%" << endl;
-// //     return 0;
-// // }
+ //         cout << "Invalid input. Please enter valid values." << endl;
+ //         return 1;
+ //     }
+ //     failedStudents = totalStudents - passedStudents;
+ //     double passingPercentage = (static_cast<double>(passedStudents) / totalStudents) * 100;
+ //     double failingPercentage = (static_cast<double>(failedStudents) / totalStudents) * 100;
+ //     cout << "Passing Percentage: " << passingPercentage << "%" << endl;
+ //     cout << "Failing Percentage: " << failingPercentage << "%" << endl;
+ //     return 0;
+// }
 
 // #include <iostream>
 // using namespace std;
