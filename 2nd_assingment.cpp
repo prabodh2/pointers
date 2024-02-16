@@ -69,6 +69,5 @@ int main() {
         head=head->next;
         delete temp;
     }//delete nodes (since work is done heap must be edited for future use.)
-
     return 0;
 }
