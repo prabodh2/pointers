@@ -51,7 +51,6 @@
 
 // #include <iostream>
 // using namespace std;
-
 // void getPassedAndFailedStudents(int *sub1, int *sub2, int *sub3, int size){
 //     int passedStudents=0;
 //     for (int i = 0; i < size; i++) {
