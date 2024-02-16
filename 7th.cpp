@@ -1,7 +1,6 @@
+ //     //Traverse 
 
-// // //     //Traverse 
-
-// // #include <iostream>
+ // #include <iostream>
 // // using namespace std;
 
 // // void insertBeginning(int* array, int element, int &n) {
