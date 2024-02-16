@@ -17,6 +17,7 @@
 //         cin >> *marks;
 //     }
 // };
+
 // struct StudentMarks {
 //     struct SubMarks regularMarks[5];
 //     void getStudentMarks() {
