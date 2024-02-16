@@ -1,4 +1,4 @@
-// // wap in cpp to find largest and 2nd largest num from n nums using an array ?
+ // wap in cpp to find largest and 2nd largest num from n nums using an array ?
 // #include <iostream>
 // using namespace std;
 // int main() {
@@ -52,6 +52,5 @@ int main() {
     }
 
     largestNumber(arr,n);
-
     return 0;
 }
