@@ -22,7 +22,6 @@ struct studentMarks {
         return sum/5;
     }
 };
-
 studentMarks *insert(studentMarks *head, float values[], int rnum, string n) {
     studentMarks *newStudent = new studentMarks(values, rnum, n);
     newStudent->next = head;
