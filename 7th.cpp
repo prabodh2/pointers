@@ -1,11 +1,11 @@
  //     //Traverse 
 
  // #include <iostream>
-// // using namespace std;
+// using namespace std;
 
-// // void insertBeginning(int* array, int element, int &n) {
-// //     for (int i = n-1; i >= 0; i--) {
-// //         array[i+1] = array[i];
+ // void insertBeginning(int* array, int element, int &n) {
+ //     for (int i = n-1; i >= 0; i--) {
+//         array[i+1] = array[i];
 // //     }
 // //     array[0] = element;
 // //     n++;
